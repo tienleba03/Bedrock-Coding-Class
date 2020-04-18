@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/login.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    height: 85vh;
+    width: 30vw;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+
+}
+.middle-text {
+    text-align: center;
+}
+
+.user-id{
+    margin-left: 3vw ;
+    margin-top: 5vh;
+}
+
+input {
+    width: 24vw;
+    margin-left: 3vw;
+    margin-top: -5vh;
+    border: 0;
+    border-bottom: 3.25px solid black;
+}
+
+#forgot {
+        text-align: right;
+        margin-right: 2.5vw;
+}
+
+#log-in-button {
+    width: 25vw;
+    height: 5vh;
+    margin-top: 3vh;
+    position: relative;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%) ;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#or-sign-up-using {
+    margin-top: 13vh;
+    margin-bottom: 3vh;
+}
+
+.icon{
+    width: 4.5vw;
+    height:4.5vw
+    
+}
+.icon-container {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+   
+    
+}
+
+
+#login {
+    font-size: 57px;  
+}
